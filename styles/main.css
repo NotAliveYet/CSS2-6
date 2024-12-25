@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main_container {
+    max-width: 1604px;
+    width: 100%;
+    height: 2344px;
+    padding: 96px;
+    background: #E4EBFF;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+
+#main_box {
+    max-width: 1280px;
+    width: 100%;
+    height: 2152px;
+    background: #FFF;
+    padding: 96px 0px;
+    margin: 0 auto;
+}
+
+#features_container {
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#features_p {
+    text-align: center;
+    max-width: 929px;
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+    color: #6941C6;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+#future_h {
+    max-width: 929px;
+    width: 100%;
+    height: 44px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 12px;
+    color: #181D27;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+}
+
+#powerful_p {
+    max-width: 1216px;
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 32px;
+    color: #535862;
+    font-family: "Inria Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#pictures_container {
+    max-width: 1280px;
+    height: 512px;
+    width: 100%;
+    padding: 0px 32px;
+    margin-top: 96px;
+    background-image: url(../images/screen.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#inboxes_box {
+    max-width: 553px;
+    width: 100%;
+    height: 178px;
+}
+
+#inboxes_content {
+    max-width: 553px;
+    width: 100%;
+    height: 334px;
+}
+
+#share_h {
+    margin-top: 20px;
+    color: #181D27;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+#loop_p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+#check_box {
+    margin-top: 32px;
+    max-width: 553px;
+    width: 100%;
+    height: 124px;
+    vertical-align: middle;
+}
+
+.p_list {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-family: Inder;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.check {
+    vertical-align: middle;
+}
+
+.check_separator {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#screen_img {
+    width: 753px;
+    height: 502px;
+}
+
+#screen_container {
+    display: inline-block;
+}
+
+#deliver_container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0px 96px;
+    height: 512px;
+    margin-top: 96px;
+    background-image: url(../images/secondscreen.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#answer_container {
+    max-width: 560px;
+    width: 100%;
+    height: 334px;
+    margin-left: 500px;
+    padding-top: 89px;
+}
+
+#answer_box {
+    max-width: 560px;
+    height: 178px;
+    margin: 0 auto;
+
+}
+
+#team_container {
+    max-width: 1280px;
+    width: 100%;
+    height: 512px;
+    margin-top: 96px;
+    padding: 0px 32px;
+    background-image: url(../images/thirdscreen.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#team_box {
+    max-width: 560px;
+    width: 100%;
+    height: 334px;
+
+}
+
+#manage_content {
+    max-width: 560px;
+    width: 100%;
+    height: 178px;
+}
+
+#manage_h {
+    margin-top: 20px;
+    color: #181D27;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+#manage_p {
+    margin-top: 16px;
+    color: #535862;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+#check_items {
+    max-width: 560px;
+    width: 100%;
+    height: 124px;
+    padding-left: 16px;
+    margin-top: 32px;
+    vertical-align: middle;
+}
+
+.filter_p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    color: #535862;
+    font-family: Inder;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.tick {
+    vertical-align: middle;
+}
+
+#tick_separator {
+    vertical-align: middle;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+#deliver_h {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px;
+    margin-top: 20px;
+}
+
+#deliver_p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+#checking_ticks {
+    margin-top: 32px;
+    max-width: 553px;
+    width: 100%;
+    height: 124px;
+    vertical-align: middle;
+    padding-left: 14px;
+}
